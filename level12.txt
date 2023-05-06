@@ -1,0 +1,13 @@
+1-Vérifier le contenu du serveur
+ls
+
+2-On peut voir le fichier data.txt. Le texte qui se trouve dans ce fichier est codé.
+Les lettres ont été tournées de 13 positions. Il faut les réarrenger puis copier le mdp:
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+3-Quitter bandit11 et se connecter au bandit12 en utilisant le mdp trouvé:
+exit
+ssh bandit12@bandit.labs.overthewire.org-p 2220
+
+
+Level12 completed!!!
