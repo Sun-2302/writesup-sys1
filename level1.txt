@@ -1,10 +1,9 @@
-1-Voir le fichier readme dans home directory dans bandit0 et copier le mdp qui se trouve dedans
+1-Lire le fichier readme dans home directory dans bandit0 et copier le mdp qui se trouve dedans
 cat readme
 
-2-Se connecter au bandit1
+2-Quitter bandit0 et se connecter au bandit1 en utilisant le mdp trouvé dans readme
+exit
 ssh bandit1@bandit.labs.overthewire.org -p 2220
-
-3-Utiliser le mdp trouver dans readme 
 
 Level1 completed!!!
 
