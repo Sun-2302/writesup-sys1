@@ -1,0 +1,14 @@
+1-Vérifier le contenu du serveur
+ls
+
+2-On peut voir le fichier data.txt. Quand on l'affiche on peut voir un texte codées en base64.
+Il faut donc le décoder puis copier le mdp:
+cat data.txt | base64 -d
+
+3-Quitter bandit10 et se connecter au bandit11 en utilisant le mdp trouvé
+exit
+ssh bandit11@bandit.labs.overthewire.org -p 2220
+
+
+Level11 completed!!!
+
