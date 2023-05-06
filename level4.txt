@@ -1,0 +1,13 @@
+1-Entrer dans le dossier inhere puis voir la liste de tous les fichiers(cachés et non caché)
+cd inhere
+ls -a 
+
+2-On peut voir le fichier .hidden qui est caché, il faut le lire et copier son contenu
+cat .hidden
+
+3-Quitter bandit3 et se connecter au bandit4 en utilisant le mdp trouvé dans .hidden
+exit
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+
+
+Level4 completed!!!
