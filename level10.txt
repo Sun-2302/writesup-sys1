@@ -1,0 +1,13 @@
+1-Vérifier le contenu du serveur
+ls
+
+2-On peut voir le fichier data.txt. Il faut juste afficher le texte qu'on peut lire et qui
+se trouve après quelques '=' et le copier: 
+cat data.txt | strings -e s | grep ==
+
+3-Quitter bandit9 et se connecter au bandit10 en utilisant le mdp trouvé
+exit
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+
+
+Level10 completed!!!
