@@ -1,8 +1,8 @@
-1-Lire le fichier - dans home directory le copier puis entrer dans bandit2
-
+1-Lire le fichier - dans home directory et copier son contenu
 cat ~/-
 
+2-Quitter bandit1 et se connecter au bandit2 en utilisant le mdp trouvé dans -
+exit
 ssh bandit2@bandit.labs.overthewire.org -p 2220
-
 
 Level2 completed!!!
