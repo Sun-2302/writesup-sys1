@@ -1,0 +1,16 @@
+1-On doit rechercher le fichier dans tous le serveur
+find / -type f -user bandit7 -group bandit6 -size 33c
+
+2-Il y aura une erreur car notre recherche va rechercher dans les dossiers dont on n'a pas l'accès.
+Il faut bloquer les recherches dans /dev pour ça:
+find / -type f -user bandit7 -group bandit6 -size 33c 2> /dev/null
+
+3-Notre recherche affichera l'emplacement du fichier bandit7.password. Il ne reste qu'à l'afficher
+cat /var/lib/dpkg/info/bandit7.password
+
+4-Quiter bandit6 et se connecter au bandit7 en utilisant le mdp trouvé
+exit
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+
+
+Level7 completed!!!
