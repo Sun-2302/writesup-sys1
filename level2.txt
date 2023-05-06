@@ -1,4 +1,4 @@
-1-Lire le fichier - dans bandit1 et copier le mdp
+1-Lire le fichier - dans home directory bandit1 et copier le mdp
 cat ~/-
 
 2-Se connecter au bandit2
