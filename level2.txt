@@ -1,0 +1,10 @@
+1-Lire le fichier - dans bandit1 et copier le mdp
+cat ~/-
+
+2-Se connecter au bandit2
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+
+3-Utiliser le mdp trouvé dans -
+
+
+Level2 completed
