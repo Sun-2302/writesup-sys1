@@ -1,7 +1,8 @@
-//Lire le fichier "spaces in this filename" le copier puis entrer dans bandit3
-
+1-Lire le fichier "spaces in this filename" dans home directory dans bandit2 et copier le mdp qui se trouve dedans
 cat "spaces in this filename"
 
+2-Quitter bandit2 et se connecter au bandit3 en utilisant le mdp trouvé dans "spaces in this filename"
+exit
 ssh bandit3@bandit.labs.overthewire.org -p 2220 
 
 
