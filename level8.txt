@@ -1,0 +1,14 @@
+1-Vérifier le contenu dub serveur 
+ls
+
+2-On peut voir le fichier data.txt et notre mdp se trouve après le millionième mot. Il faut
+donc rechercher ce qu'il y a après le millionième mot puis le copier
+grep millionth data.txt
+
+3-Quitter bandit7 et se connecter au bandit8 en utilisant le mdp trouvé
+exit
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+
+
+
+Level8 completed!!!
