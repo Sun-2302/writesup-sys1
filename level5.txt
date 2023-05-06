@@ -1,0 +1,17 @@
+1-Entrer dans le dossier inhere puis voir la liste des fichiers dedans
+cd inhere
+ls 
+
+2-On peut remarquer plusieurs fichier allant de 0 à 9; pour voir quel fichier ouvrir,
+ il faut utiliser la commande "file" pour voir le type des fichiers.
+file ./*
+
+3-On peut remarquer qu'on ne peut lire que -file07. Donc il nenreste qu'à afficher son contenu:
+cat ./-file07
+
+4-Quitter bandit4 et se connecter au bandit5 en utilisant le mdp trouvé
+exit
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+
+
+Level4->Level5 completed!!!
