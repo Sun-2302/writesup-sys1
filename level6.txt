@@ -1,0 +1,16 @@
+1-Entrer dans le dossier inhere puis voir le contenu de ce dossier 
+cd inhere
+ls
+
+2-On peut remarquer plusieurs dossier. On va rechercher le fichier qu'on veut trouver:
+find . -type f -size 1033c -not -executable
+
+3-Notre recherche nous conduira au file2 dans maybehere07. On a plus qu'à copier son contenu:
+cat ./maybehere07/.file2
+
+4-Quitter bandit5 et se connecter au bandit6 en utilisant le mdp trouvé
+exit
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+
+
+Level6 completed!!!
