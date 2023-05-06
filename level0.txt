@@ -1,0 +1,7 @@
+1-se connecter au jeu
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+2-entrer le mot de passe bandit0
+
+Level0 completed!!!
+
