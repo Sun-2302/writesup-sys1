@@ -1,0 +1,14 @@
+1-Vérifier le contenu du serveur
+ls
+
+2-On peut voir le fichier data.txt. Notre mdp est la seule ligne du texte qui n'est pas répétitif.
+Il faut donc seulement afficher le texte qui n'est pas répétitif et le copier.
+cat data.txt | sort | uniq -u
+
+3-Quitter bandit8 et se connecter au bandit9 en utilisant le mdp trouvé
+exit
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+
+
+Level9 completed!!!
+
