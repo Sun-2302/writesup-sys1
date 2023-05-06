@@ -1,4 +1,4 @@
-1-Voir le fichier readme dans bandit0 et copier le mdp qui se trouve dedans
+1-Voir le fichier readme dans home directory dans bandit0 et copier le mdp qui se trouve dedans
 cat readme
 
 2-Se connecter au bandit1
