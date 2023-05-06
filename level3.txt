@@ -1,0 +1,8 @@
+//Lire le fichier "spaces in this filename" le copier puis entrer dans bandit3
+
+cat "spaces in this filename"
+
+ssh bandit3@bandit.labs.overthewire.org -p 2220 
+
+
+Level3 completed!!!
