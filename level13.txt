@@ -1,0 +1,60 @@
+1-Vérifier le contenu du serveur
+ls
+
+2-On peut voir le fichier data.txt qui est constitué de données hexadéximales. Nous devons
+les convertir en données binaire. On crée un dossier où on va travailler:
+mkdir /tmp/dir_name
+cd /tmp/random_dir
+
+3-On va copier le fichier data.txt dans le fichier qu'on vient de créer puis on change son type
+cp ~/data.txt .
+mv data.txt data
+
+4-On converti les données en données binaires puis voir le type du fichier binary
+xxd -r data > binary
+file binary
+
+5-On a vu que le fichier est compressé à l'aide de gzip. On doit préciser le type du fichier
+puis on le décompresse et après on regarde le type du nouveau fichier extracté
+mv binary binary.gz
+gunzip binary.gz
+file binary
+
+6-On a vu que le fichier est compressé à l'aide de bzip2. On va le décompresser puis revoir
+le type du nouveau fichier
+bunzip2 binary
+ls
+file binary.out
+
+7-On voit que le fichier binary.out est compressé à l'aide de gzip. On va refaire les même
+étapes qu'au 5ème étape puis voir le type du nouveau fichier
+mv binary.out binary.gz
+gunzip binary.gz
+ls
+file binary
+
+8-Les données sont dans une archive tar; il faut les extraire puis voir le type du  nouveau fichier:
+tar -xf binary
+ls
+tar -xf data5.bin
+
+9-Puis on refait les mêmes étapes qu'en haut jusqu'à avoir un fichier texte et copier son contenu:
+ls
+file data6.bin
+bunzip2 data6.bin
+ls
+file data6.bin.out
+tar -xf data6.bin.out
+ls
+file data8.bin
+gunzip data8.gz
+ls 
+file data8
+cat data8
+
+10-Quitter bandit12 et se connecter au bandit13 en utilisant le mdp trouvé dans data8
+exit
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+
+
+Level13 complete!!!
